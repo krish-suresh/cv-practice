@@ -5,7 +5,7 @@
 
 int main(int argc, char const *argv[])
 {
-    cv::Mat img = cv::imread("./res/test.jpg", cv::IMREAD_COLOR);
+    cv::Mat img = cv::imread("/home/ksuresh/cv-practice/src/res/test.JPG", cv::IMREAD_COLOR);
     if (img.empty())
     {
         std::cout << "Could not read the image" << std::endl;
